@@ -10,7 +10,7 @@ function displayStudent(data) {
 
     for(let index = 0; index < students.length; index++) {
         if(students[index].email == emailFromLoginPage) {
-            var headHtml = '<h1 class="schoolHead">Welcome Back ' + students[index].firstName + ' ' + students[index].lastName + '!</h1>'
+            var headHtml = '<h1 class="schoolHead fadeIn first">Welcome Back ' + students[index].firstName + ' ' + students[index].lastName + '!</h1>'
 
             document.getElementById("studentHead").insertAdjacentHTML("beforeend", headHtml);
         }
